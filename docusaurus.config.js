@@ -2,9 +2,6 @@
 // Note: type annotations allow type checking and IDEs autocompletion
 require('dotenv').config()
 
-const downloadRemoteContent =
-  process.env.SKIP_DOWNLOAD !== '1' && process.env.NODE_ENV !== 'production'
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Waku',
@@ -56,13 +53,11 @@ const config = {
       '@docusaurus/plugin-ideal-image',
       {
         quality: 100,
-        max: 1080,
-        min: 400,
-        steps: 2,
+        sizes: [400],
         disableInDev: true,
       },
     ],
-    (downloadRemoteContent && [
+    [
       '@acid-info/docusaurus-remote-content',
       /** @type {import('@acid-info/docusaurus-remote-content').PluginOptions} */
       ({
@@ -77,7 +72,7 @@ const config = {
         keepLocal: ['./visual-language/logo.mdx'],
         keepStatic: ['waku/**/*'],
       }),
-    ]),
+    ],
   ],
 
   themes: [
