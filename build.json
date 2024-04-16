@@ -1,15 +1,15 @@
 {
-    "timestamp": "2024-04-16T14:02:55Z",
+    "timestamp": "2024-04-16T14:05:04Z",
     "git": {
         "commit": "8b2603242815022a376cbe49293bb1092b6d7ea0",
         "branch": "origin/master",
         "url": "git@github.com:acid-info/guide.waku.org.git"
     },
     "build": {
-        "id": "15",
-        "number": "15",
+        "id": "16",
+        "number": "16",
         "name": "website/guide.waku.org",
         "slave": "linux-01",
-        "url": "https://ci.infra.status.im/job/website/job/guide.waku.org/15/"
+        "url": "https://ci.infra.status.im/job/website/job/guide.waku.org/16/"
     }
 }
