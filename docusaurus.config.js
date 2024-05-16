@@ -133,6 +133,10 @@ const config = {
                 href: '/privacy-policy',
                 label: 'Privacy Policy',
               },
+              {
+                href: '/security',
+                label: 'Security',
+              },
             ],
           },
         ],
