@@ -1,15 +1,15 @@
 {
-    "timestamp": "2024-02-20T09:36:00Z",
+    "timestamp": "2024-06-04T14:42:29Z",
     "git": {
-        "commit": "600805bb4bae69124bccd342bb3e99a99200a7ba",
+        "commit": "b39e1ae6f5f379ba41f068bb9bd3592fd08a8a67",
         "branch": "origin/develop",
         "url": "git@github.com:waku-org/guide.waku.org.git"
     },
     "build": {
-        "id": "16",
-        "number": "16",
+        "id": "17",
+        "number": "17",
         "name": "website/dev-guide.waku.org",
         "slave": "linux-01",
-        "url": "https://ci.infra.status.im/job/website/job/dev-guide.waku.org/16/"
+        "url": "https://ci.infra.status.im/job/website/job/dev-guide.waku.org/17/"
     }
 }
